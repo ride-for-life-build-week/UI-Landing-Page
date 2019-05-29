@@ -1,6 +1,6 @@
 .container {
 
-  .about-intro {
+    .about-intro {
     background-color: @dark-grey;
     display: flex;
     .layout(space-between, center);
@@ -22,8 +22,7 @@
     display: flex;
     .column(space-around, center);
     flex-wrap: wrap;
-    padding: 3rem 10rem;
-    line-height: 3rem;
+    text-align: center;
     border: dotted .15rem @light-blue;
   }
 
@@ -32,6 +31,7 @@
     color: @mauve;
     display: flex;
     .column(center, center);
+    text-align: center;
     padding: 1.5rem 5rem;
     border-left: solid .25rem @mauve;
     border-right: solid .25rem @mauve;
@@ -41,13 +41,44 @@
       color: @dark-grey;
     }
   }
-  .teams {
-    padding: 1rem 3rem 4rem 5rem;
-      display: flex;
-      .layout(center, center);
+
+  .team-img {
+    width: 30%;
+  }
+
+  .rideforlife {
+    padding: 2rem;
+    background-color: @white;
+    display: flex;
+    .layout(space-around, center);
+    text-align: center;
     border-left: solid .25rem @mauve;
     border-right: solid .25rem @mauve;
-    border-bottom: solid .25rem @mauve;
-    }
+ }
+ 
+ .team-2 {
+  padding: 2rem;
+  background-color: @white;
+  display: flex;
+  .layout(space-evenly, center);
+  text-align: center;
+  border-left: solid .25rem @mauve;
+  border-right: solid .25rem @mauve;
+
+  img {
+    width: 20%;
+  }
+
+ }
+  
+  .team-member {
+    display: flex;
+    .column(center, center);
+  }
+
+  
+
+  
+
 
 }

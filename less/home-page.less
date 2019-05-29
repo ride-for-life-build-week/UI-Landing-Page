@@ -17,17 +17,45 @@
     }
   }
 
-  .main-image {
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+
+    img {
+        width: 100%;
+        height: auto;
+      }
+
+    .h2-box {
+      background-color: @white;
+      color: @dark-grey;
+      font-size: 1.8rem;
+      position: absolute;
+      bottom: 1rem;
+      left: 2rem;
+      // transform: translate (-40%, -60%);
+      // -ms-transform: translate (-50%, -50%);
+    }
+
 
     .CTA-button {
       display: flex;
       .layout(center, center);
       width: 28%;
-      padding: .5rem 1rem;
+      padding: 1rem;
+      font-size: 1.75rem;
       .orangebutton();
       .transition();
+      cursor: pointer;
+      position: absolute;
+      top: 77%;
+      left: 67%;
+      transform: translate (-50%, -50%);
+      -ms-transform: translate (-50%, -50%);
+      }
     }
-  }
+  
   
   .one-click {
     text-align: center;

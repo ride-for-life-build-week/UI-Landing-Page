@@ -197,13 +197,28 @@ footer {
 .container .intro h2 {
   padding: 15px;
 }
-.container .main-image .CTA-button {
+.container .image-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+.container .image-container img {
+  width: 100%;
+  height: auto;
+}
+.container .image-container .h2-box {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.container .image-container .CTA-button {
   display: flex;
   flex-direction: flex-start;
   justify-content: center;
   align-items: center;
   width: 28%;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
+  font-size: 1.75rem;
   background-color: #ff9900;
   color: #292626;
   font-size: 1.5rem;
@@ -211,7 +226,7 @@ footer {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-.container .main-image .CTA-button:hover {
+.container .image-container .CTA-button:hover {
   color: #fcfcfc;
   background-color: #a3d5e0;
 }

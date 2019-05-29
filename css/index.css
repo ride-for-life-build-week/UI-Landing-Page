@@ -207,9 +207,15 @@ footer {
   height: auto;
 }
 .container .image-container .h2-box {
+  background-color: #fcfcfc;
+  padding: 1rem;
+  border: solid .2rem #ff9900;
+  opacity: 0.92;
+  color: @dark-grey;
+  font-size: 2.5rem;
   position: absolute;
-  top: 8px;
-  left: 16px;
+  bottom: 1.75rem;
+  left: 2.5rem;
 }
 .container .image-container .CTA-button {
   display: flex;
@@ -225,6 +231,11 @@ footer {
   border-radius: 2.5%;
   transition-duration: 0.4s;
   cursor: pointer;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  transform: translate (-50%, -50%);
+  -ms-transform: translate (-50%, -50%);
 }
 .container .image-container .CTA-button:hover {
   color: #fcfcfc;

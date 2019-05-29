@@ -146,7 +146,7 @@ h5 {
   color: #292626;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -170,7 +170,7 @@ nav a {
   font-size: 1.25rem;
   text-decoration: none;
   color: #fcfcfc;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 .container .intro {
   background-color: #292626;
@@ -178,14 +178,34 @@ nav a {
   flex-direction: flex-start;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  color: #fcfcfc;
 }
 .container .intro h1 {
   color: #fcfcfc;
+  padding: 10px 15px;
+  text-decoration: none;
 }
 .container .intro h2 {
   padding: 15px;
 }
-.container .intro p {
-  padding: 0 15px;
+.container img {
+  width: 100%;
+  height: auto;
+}
+.container .about-intro {
+  background-color: #292626;
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+.container .about-intro h1 {
+  color: #fcfcfc;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.container .about-intro h2 {
+  padding: 15px;
 }

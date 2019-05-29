@@ -197,9 +197,28 @@ footer {
 .container .intro h2 {
   padding: 15px;
 }
+.container .main-image .CTA-button {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  padding: 0.5rem 1rem;
+  background-color: #ff9900;
+  color: #292626;
+  font-size: 1.5rem;
+  border-radius: 2.5%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.container .main-image .CTA-button:hover {
+  color: #fcfcfc;
+  background-color: #a3d5e0;
+}
 .container .one-click {
   text-align: center;
   padding: 3rem;
+  border: dotted 0.15rem #a3d5e0;
 }
 .container .one-click h4 {
   color: #292626;
@@ -242,4 +261,39 @@ footer {
 }
 .container .about-intro h2 {
   padding: 15px;
+}
+.container .bikes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem 10rem;
+  line-height: 3rem;
+  border: dotted 0.15rem #a3d5e0;
+}
+.container .our-team {
+  background-color: #fcfcfc;
+  color: #a56565;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 5rem;
+  border-left: solid 0.25rem #a56565;
+  border-right: solid 0.25rem #a56565;
+  border-top: solid 0.25rem #a56565;
+}
+.container .our-team h3 {
+  color: #292626;
+}
+.container .teams {
+  padding: 1rem 3rem 4rem 5rem;
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 0.25rem #a56565;
+  border-right: solid 0.25rem #a56565;
+  border-bottom: solid 0.25rem #a56565;
 }

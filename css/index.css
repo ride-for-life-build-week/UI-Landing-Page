@@ -146,7 +146,7 @@ h5 {
   color: #292626;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -154,9 +154,13 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-p {
-  font-size: 1.6rem;
+h4 {
+  font-size: 1.5rem;
   line-height: 1.4;
+}
+p {
+  font-size: 1.25rem;
+  line-height: 1.8;
 }
 .container {
   max-width: 800px;
@@ -170,26 +174,152 @@ nav a {
   font-size: 1.25rem;
   text-decoration: none;
   color: #fcfcfc;
+  padding: 1.25rem;
+}
+footer {
+  background-color: #292626;
+  color: #fcfcfc;
+  padding: 1rem 0 1rem 5rem;
 }
 .container .intro {
   background-color: #292626;
   display: flex;
   flex-direction: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
-}
-@media (max-width: 500px) {
-  .container .intro {
-    padding-bottom: 0.5rem;
-  }
+  color: #fcfcfc;
 }
 .container .intro h1 {
   color: #fcfcfc;
+  padding: 10px 15px;
+  text-decoration: none;
 }
 .container .intro h2 {
   padding: 15px;
 }
-.container .intro p {
-  padding: 0 15px;
+.container .image-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+.container .image-container img {
+  width: 100%;
+  height: auto;
+}
+.container .image-container .h2-box {
+  background-color: #fcfcfc;
+  padding: 1rem;
+  border: solid .2rem #ff9900;
+  opacity: 0.92;
+  color: @dark-grey;
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 1.75rem;
+  left: 2.5rem;
+}
+.container .image-container .CTA-button {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  padding: 1rem;
+  font-size: 1.75rem;
+  background-color: #ff9900;
+  color: #292626;
+  font-size: 1.5rem;
+  border-radius: 2.5%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  transform: translate (-50%, -50%);
+  -ms-transform: translate (-50%, -50%);
+}
+.container .image-container .CTA-button:hover {
+  color: #fcfcfc;
+  background-color: #a3d5e0;
+}
+.container .one-click {
+  text-align: center;
+  padding: 3rem;
+  border: dotted 0.15rem #a3d5e0;
+}
+.container .one-click h4 {
+  color: #292626;
+}
+.container .benefits {
+  background-color: #a56565;
+  color: #fcfcfc;
+  display: flex;
+  padding: 0 2rem 3rem 4rem;
+}
+.container .benefits-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fcfcfc;
+  padding: 2rem;
+}
+.container .benefits-boxes .benefits-img {
+  width: 50%;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+.container .about-intro {
+  background-color: #292626;
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+.container .about-intro h1 {
+  color: #fcfcfc;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.container .about-intro h2 {
+  padding: 15px;
+}
+.container .bikes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem 10rem;
+  line-height: 3rem;
+  border: dotted 0.15rem #a3d5e0;
+}
+.container .our-team {
+  background-color: #fcfcfc;
+  color: #a56565;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 5rem;
+  border-left: solid 0.25rem #a56565;
+  border-right: solid 0.25rem #a56565;
+  border-top: solid 0.25rem #a56565;
+}
+.container .our-team h3 {
+  color: #292626;
+}
+.container .teams {
+  padding: 1rem 3rem 4rem 5rem;
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 0.25rem #a56565;
+  border-right: solid 0.25rem #a56565;
+  border-bottom: solid 0.25rem #a56565;
 }

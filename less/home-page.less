@@ -3,23 +3,94 @@
   .intro {
     background-color: @dark-grey;
     display: flex;
-    .layout(center, center);
-    padding-top: 1rem;
-    @media @mobile {
-      padding-bottom: .5rem;
-    }
-
+    .layout(space-between, center);
+    color: @white;
+  
     h1 {
       color: @white;
+      padding:10px 15px;
+      text-decoration: none;
     }
     
     h2 {
       padding: 15px;
     }
+  }
 
-    p {
-      padding:0 15px;
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+
+    img {
+        width: 100%;
+        height: auto;
+      }
+
+    .h2-box {
+      background-color: @white;
+      color: @dark-grey;
+      font-size: 2.5rem;
+      position: absolute;
+      bottom: 1.75rem;
+      left: 2.5rem;
+      padding: 1rem;
+      border: solid .2rem @yellow;
+      opacity: 0.92;
     }
+
+
+    .CTA-button {
+      display: flex;
+      .layout(center, center);
+      width: 28%;
+      padding: 1rem;
+      font-size: 1.75rem;
+      .orangebutton();
+      .transition();
+      cursor: pointer;
+      position: absolute;
+      top: 85%;
+      left: 70%;
+      transform: translate (-50%, -50%);
+      -ms-transform: translate (-50%, -50%);
+      }
+    }
+  
+  
+  .one-click {
+    text-align: center;
+    padding: 3rem;
+    border: dotted .15rem @light-blue;
+
+    h4 {
+      color: @dark-grey;
+    }
+  }
+
+  .benefits {
+    background-color: @mauve;color: @white;
+    display: flex;
+    padding: 0 2rem 3rem 4rem;
+    // .layout(space-around, center)
+  }
+
+
+  .benefits-boxes {
+    display: flex;
+    .column(space-around, center);
+    flex-wrap: wrap;
+    color: @white;
+    padding: 2rem;
+    
+    .benefits-img {
+    width: 50%;
+    } 
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 
 

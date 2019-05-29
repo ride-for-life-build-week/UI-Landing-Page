@@ -11,3 +11,19 @@
   justify-content: @justify;
   align-items: @align;
 }
+
+.orangebutton() {
+  background-color: @yellow;
+  color: @dark-grey;
+  font-size: 1.5rem;
+  border-radius: 2.5%;
+}
+
+.transition() {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  &:hover {
+    color: @white;
+    background-color: @light-blue;
+  }
+}

@@ -154,9 +154,13 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-p {
-  font-size: 1.6rem;
+h4 {
+  font-size: 1.5rem;
   line-height: 1.4;
+}
+p {
+  font-size: 1.25rem;
+  line-height: 1.8;
 }
 .container {
   max-width: 800px;
@@ -171,6 +175,11 @@ nav a {
   text-decoration: none;
   color: #fcfcfc;
   padding: 1.25rem;
+}
+footer {
+  background-color: #292626;
+  color: #fcfcfc;
+  padding: 1rem 0 1rem 5rem;
 }
 .container .intro {
   background-color: #292626;
@@ -187,6 +196,31 @@ nav a {
 }
 .container .intro h2 {
   padding: 15px;
+}
+.container .one-click {
+  text-align: center;
+  padding: 3rem;
+}
+.container .one-click h4 {
+  color: #292626;
+}
+.container .benefits {
+  background-color: #a56565;
+  color: #fcfcfc;
+  display: flex;
+  padding: 0 2rem 3rem 4rem;
+}
+.container .benefits-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fcfcfc;
+  padding: 2rem;
+}
+.container .benefits-boxes .benefits-img {
+  width: 50%;
 }
 .container img {
   width: 100%;

@@ -16,6 +16,35 @@
       padding: 15px;
     }
   }
+  
+  .one-click {
+    text-align: center;
+    padding: 3rem;
+
+    h4 {
+      color: @dark-grey;
+    }
+  }
+
+  .benefits {
+    background-color: @mauve;color: @white;
+    display: flex;
+    padding: 0 2rem 3rem 4rem;
+    // .layout(space-around, center)
+  }
+
+
+  .benefits-boxes {
+    display: flex;
+    .column(space-around, center);
+    flex-wrap: wrap;
+    color: @white;
+    padding: 2rem;
+    
+    .benefits-img {
+    width: 50%;
+    } 
+  }
 
   img {
     width: 100%;

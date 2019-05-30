@@ -21,7 +21,7 @@ header.addEventListener('mouseleave', function(element) {
 
 const benefits = document.querySelector('.benefits');
 benefits.addEventListener('copy', function(element) {
-  element.style.backgroundColor = '#a3d5e0';
+  element.target.style.backgroundColor = '#a3d5e0';
 })
 
 const leftBtn = document.querySelector('.left-button');
@@ -37,3 +37,8 @@ rightBtn.addEventListener('click', function (element) {
   element.target.style.color = 'orange';
   element.target.style.border = 'none';
 });
+
+const divContainer = document.querySelector('.container');
+divContainer.addEventListener('mouseenter', function(element) {
+  console.log(`Your mouse position - X: ${element.offsetX}, Y: ${element.offsetY}`);
+})

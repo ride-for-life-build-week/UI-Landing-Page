@@ -294,6 +294,10 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   border: dotted 0.15rem #a3d5e0;
+  padding: 2rem;
+}
+.container .bikes h2 {
+  padding-bottom: 1rem;
 }
 .container .our-team {
   background-color: #fcfcfc;
@@ -311,8 +315,17 @@ footer {
 .container .our-team h3 {
   color: #292626;
 }
+.container .our-team h4 {
+  color: #a56565;
+}
 .container .team-img {
   width: 35%;
+}
+.container .title {
+  color: #a3d5e0;
+}
+.container .job {
+  color: #a56565;
 }
 .container .team-member {
   display: flex;

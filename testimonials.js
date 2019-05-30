@@ -21,6 +21,14 @@ class Testimonials {
       this.testimonials[this.currentIndex].style.display = 'block';
     }
 
+    // showLeftTestimonial() {
+    //   this.testimonials.forEach(testimonial => {
+    //     testimonial.style.display = 'none';
+    //     });
+    //     this.currentIndex === 0 ? this.currentIndex = this.testimonials.length-1 : this.currentIndex--;
+    //     this.testimonials[this.currentIndex].style.display = 'block';
+    //   }
+
   showRightTestimonial() {
     this.testimonials.forEach(testimonial => {
       testimonial.style.display = 'none';

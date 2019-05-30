@@ -48,6 +48,38 @@
         display: block;
       }
     }
+  }
+
+  .CTA-box {
+
+    background-color: @dark-grey;
+
+    @media @mobile {
+      padding-top: 2rem;
+      border: solid .2rem @yellow;
+      
+      .h2-box{
+        order: 0;
+        width: 75%;
+        padding: 1rem 0rem 2rem 2rem;
+      }
+      
+      .CTA-button {
+        order: 1;
+        width: 25%;
+        // display: flex;
+        // .layout(center, center);
+        padding: .5rem;
+        font-size: .5rem;
+        .orangebutton();
+        cursor: pointer;
+        position: relative;
+        bottom: 4rem;
+        right: 2.5rem;
+
+        }
+      }
+    }
 
     .h2-box {
       background-color: @white;
@@ -63,19 +95,17 @@
       @media @mobile {
         background-color: @dark-grey;
         display: flex;
-        .layout(flex-start, flex-start);
-        
         position: relative;
         bottom: 0rem;
         left: 0rem;
+        border: none;
 
         h2 {
           color: @white;
-          font-size: 2rem;
+          font-size: 2.25rem;
+          }
         }
       }
-    }
-
 
     .CTA-button {
       display: flex;
@@ -89,20 +119,17 @@
       position: absolute;
       top: 85%;
       left: 70%;
-      // transform: translate (-50%, -50%);
-      // -ms-transform: translate (-50%, -50%);
-      }
+        // transform: translate (-50%, -50%);
+        // -ms-transform: translate (-50%, -50%);
 
       @media @mobile {
-        position: relative;
-        top: 0rem;
-        left: 0rem;
-      }
-
-
+        font-size: .5rem;
+        .orangebutton();
+        // background-color: @light-blue;
+        }
+      
     }
-  
-  
+
   .one-click {
     text-align: center;
     padding: 3rem;
@@ -114,10 +141,17 @@
   }
 
   .benefits {
-    background-color: @mauve;color: @white;
+    background-color: @mauve;
+    color: @white;
     display: flex;
     padding: 0 2rem 3rem 4rem;
     // .layout(space-around, center)
+
+    @media @mobile {
+      background-color: @light-blue;
+      display: flex;
+      .column(flex-start, center);
+    }
   }
 
 
@@ -125,11 +159,27 @@
     display: flex;
     .column(space-around, center);
     flex-wrap: wrap;
+    text-align: center;
     color: @white;
     padding: 2rem;
+
+    @media @mobile {
+      display: flex;
+      color: @dark-grey;
+      flex-wrap: wrap;
+      .layout(space-around, center);
+    }
+    
+    .benefits-cta {
+      color: @white;
+    }
     
     .benefits-img {
-    width: 50%;
+      width: 50%;
+
+      @media @mobile {
+      width: 40%;
+      }
     } 
   }
 

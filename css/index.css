@@ -254,7 +254,8 @@ footer {
     font-size: 0.5rem;
     background-color: #ff9900;
     color: #292626;
-    font-size: 1.5rem;
+    text-decoration: none;
+    font-size: 1.75rem;
     border-radius: 2.5%;
     cursor: pointer;
     position: relative;
@@ -294,10 +295,10 @@ footer {
   align-items: center;
   width: 28%;
   padding: 1rem;
-  font-size: 1.75rem;
   background-color: #ff9900;
   color: #292626;
-  font-size: 1.5rem;
+  text-decoration: none;
+  font-size: 1.75rem;
   border-radius: 2.5%;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -314,7 +315,8 @@ footer {
     font-size: 0.5rem;
     background-color: #ff9900;
     color: #292626;
-    font-size: 1.5rem;
+    text-decoration: none;
+    font-size: 1.75rem;
     border-radius: 2.5%;
   }
 }
@@ -384,6 +386,15 @@ footer {
   align-items: center;
   color: #fcfcfc;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  .container .about-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
 }
 .container .about-intro h1 {
   color: #fcfcfc;
@@ -473,4 +484,19 @@ footer {
   text-align: center;
   border-left: solid 0.25rem #a56565;
   border-right: solid 0.25rem #a56565;
+}
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border-top: dotted 0.15rem #a56565;
+  border-left: dotted 0.15rem #a56565;
+  border-right: dotted 0.15rem #a56565;
+  padding: 2rem;
+}
+.coming-soon h2 {
+  padding-bottom: 1rem;
 }

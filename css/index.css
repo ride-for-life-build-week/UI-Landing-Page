@@ -506,13 +506,13 @@ footer {
   align-items: center;
   flex-direction: row;
   width: 70%;
-  height: 300px;
   position: relative;
   overflow: hidden;
   margin: 2rem auto;
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 3rem 6rem;
+  padding: 5rem;
   height: auto;
+  border: 0.1rem dashed #a56565;
 }
 .container .testimonials .left-button {
   top: 50%;
@@ -523,8 +523,8 @@ footer {
   font-size: 3.5rem;
   border-radius: 50%;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   border: 0.25rem solid #a56565;
   cursor: pointer;
 }
@@ -545,8 +545,8 @@ footer {
   font-size: 3.5rem;
   border-radius: 50%;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   border: 0.25rem solid #a56565;
   cursor: pointer;
 }

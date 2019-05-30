@@ -189,10 +189,24 @@ footer {
   align-items: center;
   color: #fcfcfc;
 }
+@media (max-width: 500px) {
+  .container .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+}
 .container .intro h1 {
   color: #fcfcfc;
   padding: 10px 15px;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  .container .intro {
+    padding: 1.5rem;
+  }
 }
 .container .intro h2 {
   padding: 15px;
@@ -202,9 +216,23 @@ footer {
   width: 100%;
   max-width: 800px;
 }
-.container .image-container img {
+.container .image-container #img1 {
   width: 100%;
   height: auto;
+  display: block;
+}
+@media (max-width: 500px) {
+  .container .image-container #img1 {
+    display: none;
+  }
+}
+.container .image-container #img2 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container .image-container #img2 {
+    display: block;
+  }
 }
 .container .image-container .h2-box {
   background-color: #fcfcfc;
@@ -216,6 +244,22 @@ footer {
   padding: 1rem;
   border: solid 0.2rem #ff9900;
   opacity: 0.92;
+}
+@media (max-width: 500px) {
+  .container .image-container .h2-box {
+    background-color: #292626;
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    bottom: 0rem;
+    left: 0rem;
+  }
+  .container .image-container .h2-box h2 {
+    color: #fcfcfc;
+    font-size: 2rem;
+  }
 }
 .container .image-container .CTA-button {
   display: flex;
@@ -238,6 +282,13 @@ footer {
 .container .image-container .CTA-button:hover {
   color: #fcfcfc;
   background-color: #a3d5e0;
+}
+@media (max-width: 500px) {
+  .container .image-container {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+  }
 }
 .container .one-click {
   text-align: center;
@@ -294,6 +345,10 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   border: dotted 0.15rem #a3d5e0;
+  padding: 2rem;
+}
+.container .bikes h2 {
+  padding-bottom: 1rem;
 }
 .container .our-team {
   background-color: #fcfcfc;
@@ -311,15 +366,30 @@ footer {
 .container .our-team h3 {
   color: #292626;
 }
+.container .our-team h4 {
+  color: #a56565;
+}
 .container .team-img {
-  width: 30%;
+  width: 35%;
+}
+.container .title {
+  color: #a56565;
+}
+.container .job {
+  color: #292626;
+}
+.container .team-member {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .container .rideforlife {
   padding: 2rem;
   background-color: #fcfcfc;
   display: flex;
   flex-direction: flex-start;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   border-left: solid 0.25rem #a56565;
@@ -330,18 +400,21 @@ footer {
   background-color: #fcfcfc;
   display: flex;
   flex-direction: flex-start;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
   border-left: solid 0.25rem #a56565;
   border-right: solid 0.25rem #a56565;
+  border-bottom: solid 0.5rem #a56565;
 }
-.container .team-2 img {
-  width: 20%;
-}
-.container .team-member {
+.container .team-3 {
+  padding: 2rem;
+  background-color: #fcfcfc;
   display: flex;
-  flex-direction: column;
+  flex-direction: flex-start;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  border-left: solid 0.25rem #a56565;
+  border-right: solid 0.25rem #a56565;
 }

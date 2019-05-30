@@ -43,38 +43,48 @@
   }
 
   .team-img {
-    width: 30%;
+    width: 35%;
+  }
+  
+  .team-member {
+    display: flex;
+    .layout(space-evenly, center);
   }
 
   .rideforlife {
     padding: 2rem;
     background-color: @white;
     display: flex;
-    .layout(space-around, center);
+    .layout(center, center);
     text-align: center;
     border-left: solid .25rem @mauve;
     border-right: solid .25rem @mauve;
  }
- 
- .team-2 {
+  .team-2 {
+    padding: 2rem;
+    background-color: @white;
+    display: flex;
+    .layout(center, center);
+    text-align: center;
+    border-left: solid .25rem @mauve;
+    border-right: solid .25rem @mauve;
+    border-bottom: solid .5rem @mauve;
+ }
+
+ .team-3 {
   padding: 2rem;
   background-color: @white;
   display: flex;
-  .layout(space-evenly, center);
+  .layout(center, center);
   text-align: center;
   border-left: solid .25rem @mauve;
   border-right: solid .25rem @mauve;
 
-  img {
-    width: 20%;
-  }
-
+  // img {
+  //   width: 35%;
+  // }
  }
   
-  .team-member {
-    display: flex;
-    .column(center, center);
-  }
 
   
 

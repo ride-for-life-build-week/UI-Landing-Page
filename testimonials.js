@@ -19,6 +19,7 @@ class Testimonials {
       });
       this.currentIndex === 0 ? this.currentIndex = this.testimonials.length-1 : this.currentIndex--;
       this.testimonials[this.currentIndex].style.display = 'block';
+      
     }
 
     // showLeftTestimonial() {

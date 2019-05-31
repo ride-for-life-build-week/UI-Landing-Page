@@ -28,14 +28,14 @@ const leftBtn = document.querySelector('.left-button');
 
 leftBtn.addEventListener('click', function (element) {
   element.target.style.color = 'orange';
-  element.target.style.border = 'none';
+  element.target.style.border = 'orange';
 });
 
 const rightBtn = document.querySelector('.right-button');
 
 rightBtn.addEventListener('click', function (element) {
   element.target.style.color = 'orange';
-  element.target.style.border = 'none';
+  element.target.style.border = 'orange';
 });
 
 const divContainer = document.querySelector('.container');
